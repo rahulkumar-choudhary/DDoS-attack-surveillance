@@ -16,3 +16,6 @@ output = prd_classmodel.classmodel_prd()
 import database as firebase_upload
 
 firebase_upload.upload(output)
+
+print(output)
+

@@ -14,7 +14,7 @@ cred = credentials.Certificate('keys.json')
 
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    'databaseURL': ''
+    'databaseURL': 'https://predict-ddos-default-rtdb.firebaseio.com/'
 })
 
 

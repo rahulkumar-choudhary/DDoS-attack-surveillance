@@ -9,8 +9,9 @@
 # get the network interface:
 # tshark -D
 
-networkInterface= # wlp0s20f3
-numberOfRequest= # 1000
+networkInterface=ens4
+
+numberOfRequest=1000
 path="../test-data/"
 
 # bug in tshark: /root/file.pcap

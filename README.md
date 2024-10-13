@@ -1,4 +1,5 @@
-Project Overview 
+
+
 
 1. What it does?
 - The project detects Distributed Denial of Service (DDoS) attacks in real-time using machine learning. It classifies network traffic as either malicious (DDoS) or benign by analyzing features from the traffic dataset. This allows the system to block harmful requests early and maintain the availability of services even during high-volume attacks.
@@ -30,3 +31,6 @@ Handling the preprocessing of the dataset (noise, missing values, transforming m
 - The next step is to explore deep learning models, such as convolutional neural networks (CNNs), to further improve detection accuracy and efficiency.
 - We plan to test the model with even larger datasets and improve the scalability of the system.
 - Enhancing the real-time component and automating the response to detected attacks would make the system more robust and reactive under real-world conditions.
+
+### Run streamlit using the following command.
+streamlit run ./dashboard.py --server.port 6879 
